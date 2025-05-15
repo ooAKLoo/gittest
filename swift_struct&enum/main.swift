@@ -11,5 +11,5 @@ import Foundation
 let testEnum = TestEnum()
 testEnum.testAll()
 
-let testStruct = StructDemo()
+//let testStruct = StructDemo()
 //testStruct.test()

@@ -77,6 +77,6 @@ class TestEnum {
     
     func testAll() {
         testSeasonEnum(season: .summer)
-        testDirectionEnum(direction: .north)
+//        testDirectionEnum(direction: .north)
     }
 }
