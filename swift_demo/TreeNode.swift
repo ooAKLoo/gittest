@@ -29,7 +29,7 @@ class Solution_bst {
             let mid = (l+r) // 2
             var root = TreeNode(nums[mid])
             root.left = dfs(l: l,r: mid-1)
-            root.right = dfs(l: mid+1,r: r)
+//            root.right = dfs(l: mid+1,r: r)
             return root
         }
         return dfs(l: 0, r: nums.count-1)
