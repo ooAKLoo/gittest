@@ -9,7 +9,7 @@ class DifferentFileClass {
     func accessProperties() {
         let instance = PublicClass()
         
-        print("\n在同一模块(MyApp)的不同文件(OtherFile.swift)中访问:")
+//        print("\n在同一模块(MyApp)的不同文件(OtherFile.swift)中访问:")
         print("- publicProperty: \(instance.publicProperty)") // ✅ 可访问
         print("- internalProperty: \(instance.internalProperty)") // ✅ 可访问
 //         print("- filePrivateProperty: \(instance.filePrivateProperty)") // ❌ 编译错误，无法访问
