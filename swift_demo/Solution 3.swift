@@ -14,7 +14,7 @@ class Solution_countPairs {
         for i in 0..<len{
             for j in i+1..<len{
                 if nums[i]==nums[j] && (i*j)/k == 0{
-                    res+=1
+//                    res+=1
                 }
             }
         }
